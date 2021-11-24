@@ -274,29 +274,34 @@
         </audio> 
     	
         <script type="text/javascript">
-            var btnSound = document.getElementById("btnSound");
-            var songNoel = document.getElementById("songNoel");
+          var btnSound = document.getElementById("btnSound");
+          var songNoel = document.getElementById("songNoel");
 
 
 
-            btnSound.onclick = function() {
-              if(songNoel.paused) {
-                playSound();
-                this.classList.add("playBar");
-                //alert("abc");
-              }else {
-                songNoel.pause();
-                this.classList.remove("playBar"); 
-              }
+          btnSound.onclick = function() {
+            if(songNoel.paused) {
+              songNoel.play();
+              //alert('play');
+              this.classList.add("playBar");
+            }else {
+              songNoel.pause();
+              this.classList.remove("playBar"); 
+              //alert('pause');
             }
+          }
 
-            playSound();
-            
-            function playSound()
-            {
-                console.log("should play")
-                songNoel.play();
-            }  
+          function eventFire(el, etype){
+            if (el.fireEvent) {
+              el.fireEvent('on' + etype); 
+            } else {
+              var evObj = document.createEvent('Events');
+              evObj.initEvent(etype, true, false);
+              el.dispatchEvent(evObj);
+            }
+          }
+          eventFire(document.getElementById('btnSound'), 'click');
+
         </script>
         
 	</body>
