@@ -288,7 +288,7 @@ header img {
 }
 
 .a {
-  background: url("https://i.ibb.co/dbKDMjV/a.png") no-repeat left center/auto 100%;
+  background: url("../images/a.png") no-repeat left center/auto 100%;
   position: absolute;
   left: 0;
   top: -10px;
@@ -301,7 +301,7 @@ header img {
 }
 
 .b {
-  background: url("https://i.ibb.co/4p98NFH/b.png") no-repeat left center/auto 100%;
+  background: url("../images/b.png") no-repeat left center/auto 100%;
   width: 32px;
   height: 14px;
   margin-left: -32px;
@@ -309,7 +309,7 @@ header img {
 }
 
 .b1 {
-  background: url("https://i.ibb.co/DfRzDnM/b1.png") no-repeat left center/auto 100%;
+  background: url("../images/b1.png") no-repeat left center/auto 100%;
   width: 43px;
   height: 27px;
   margin-left: -23px;
@@ -318,7 +318,7 @@ header img {
 }
 
 .b2 {
-  background: url("https://i.ibb.co/2c4B23p/b2.png") no-repeat left center/auto 100%;
+  background: url("../images/b2.png") no-repeat left center/auto 100%;
   width: 42px;
   height: 15px;
   margin-left: -17px;
@@ -327,7 +327,7 @@ header img {
 }
 
 .b3 {
-  background: url("https://i.ibb.co/Bj26r62/b3.png") no-repeat left center/auto 100%;
+  background: url("../images/b3.png") no-repeat left center/auto 100%;
   width: 27px;
   height: 26px;
   margin-left: -20px;
@@ -340,7 +340,7 @@ header img {
   height: 43px;
   z-index: 3;
   margin-top: -8px;
-  background: url("https://i.ibb.co/BNxck0N/c1.png") no-repeat left center/auto 100%;
+  background: url("../images/c1.png") no-repeat left center/auto 100%;
 }
 
 .c11 {
@@ -364,7 +364,7 @@ header img {
   z-index: 1;
   margin-left: -7px;
   margin-top: -12px;
-  background: url("https://i.ibb.co/XLfR3xR/c2.png") no-repeat left center/auto 100%;
+  background: url("../images/c2.png") no-repeat left center/auto 100%;
 }
 
 .c21 {
@@ -383,7 +383,7 @@ header img {
   z-index: 2;
   margin-left: -8px;
   margin-top: -3px;
-  background: url("https://i.ibb.co/F8bkDpp/c3.png") no-repeat left center/auto 100%;
+  background: url("../images/c3.png") no-repeat left center/auto 100%;
 }
 
 .c31 {
