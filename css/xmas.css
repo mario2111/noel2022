@@ -49,6 +49,7 @@ lottie-player {
   overflow: hidden;
   top: -17px;
   left: 154px;
+  transform: scale(1.2);
 }
 .noel-head {
   position: relative;
