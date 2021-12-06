@@ -37,19 +37,13 @@ header img {
   height: 100%;
   pointer-events: none;
 }
-lottie-player {
-  position: absolute;
-  top: -60px;
-  left: -80px;
-}
+
 .ball-animate {
   position: absolute;
-  width: 54px;
-  height: 34px;
-  overflow: hidden;
-  top: -17px;
-  left: 157px;
-  transform: scale(1.3);
+  width: 79px;
+  height: 48px;
+  top: -29px;
+  left: 142px;
 }
 .noel-head {
   position: relative;
